@@ -23,8 +23,7 @@ body {
 .box-text {
 	font-family: "Inconsolata", sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;	
-	margin-top: 20px;
+	font-weight: 700;
 	height: 100px;
 }
 
@@ -36,6 +35,9 @@ body {
 .info {
 	font-weight: 400;
 	color: var(--color-info);
+	font-size: 4vmin;
+	letter-spacing: -0.040em;
+	width: 65vmin;
 }
 
 .button-back {

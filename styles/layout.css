@@ -6,7 +6,7 @@ body {
 
 .box-body {
 	display: grid;
-	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: 80px repeat(2,1fr);
 	grid-template-areas:
 		'mes'
 		'image'
@@ -15,4 +15,15 @@ body {
 
 .box-text {
 	grid-area: mes;
+}
+
+.box-info {
+	grid-area: info;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.box-image {
+	grid-area: image;
 }

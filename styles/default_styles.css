@@ -1,5 +1,21 @@
 /* Mutable styles */
 
+.box-text {
+	height: 20px;
+}
+
+.header {
+	font-size: 7vmin;
+	margin-top: 20px;
+}
+
 .image {
 	width: 100%;
+}
+
+.info {
+	font-size: 4vmin;
+	line-height: 25px;	
+	letter-spacing: -0.040em;
+	width: 65vmin;
 }
