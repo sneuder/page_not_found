@@ -1,12 +1,6 @@
 /*medias*/
 @media screen and (min-width: 1008px) and (max-width: 1920px) and (orientation: landscape) {
 
-	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
 	.box-body {
 		width: 90vw;
 		height: 90vh;
@@ -15,12 +9,6 @@
 		grid-template-areas:
 		'mes mes'
 		'image info';
-	}
-
-	.box-text {
-		grid-area: mes;
-		height: 40px;
-		margin-top: 20px;
 	}
 
 	.header {
@@ -40,7 +28,6 @@
 
 	.image {
 		margin-top: 40px;
-		width: 90%;
 	}
 
 	.box-info {
@@ -49,36 +36,9 @@
 		justify-content: space-between;
 		grid-area: info;
 	}
-
-	.header, .info, .button-back {
-		margin: 10px 0px;
-	}
 }
 
 @media screen and (min-width: 1008px) and (max-width: 1920px) and (orientation: portrait) {
-
-	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.box-body {
-		width: 90vw;
-		height: 90vh;
-		display: grid;
-		grid-template-columns: repeat(1,1fr);
-		grid-template-areas:
-		'mes'
-		'image'
-		'info';
-	}
-
-	.box-text {
-		grid-area: mes;	
-		margin-top: 20px;
-		height: 100px;
-	}
 
 	.header {
 		font-size: 10vmin;
@@ -105,40 +65,9 @@
 		justify-content: space-between;
 		grid-area: info;
 	}
-
-	.header, .info, .button-back {
-		margin: 18px 0px;
-	}
-
-	.button-back {
-		margin: 25px 0px;
-	}
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007px) {
-
-	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.box-body {
-		width: 90vw;
-		height: 90vh;
-		display: grid;
-		grid-template-columns: repeat(1,1fr);
-		grid-template-areas:
-		'mes'
-		'image'
-		'info';
-	}
-
-	.box-text {
-		grid-area: mes;	
-		margin-top: 20px;
-		height: 100px;
-	}
 
 	.header {
 		font-size: 7vmin;
@@ -155,50 +84,15 @@
 		grid-area: image;
 	}
 
-	.image {
-		width: 90%;
-	}
-
 	.box-info {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		grid-area: info;
 	}
-
-	.header, .info, .button-back {
-		margin: 18px 0px;
-	}
-
-	.button-back {
-		margin: 25px 0px;
-	}
 }
 
 @media screen and (max-width: 640px) {
-
-	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.box-body {
-		width: 90vw;
-		height: 90vh;
-		display: grid;
-		grid-template-columns: repeat(1,1fr);
-		grid-template-areas:
-		'mes'
-		'image'
-		'info';
-	}
-
-	.box-text {
-		grid-area: mes;	
-		margin-top: 20px;
-		height: 100px;
-	}
 
 	.header {
 		font-size: 8vmin;
@@ -215,22 +109,10 @@
 		grid-area: image;
 	}
 
-	.image {
-		width: 100%;
-	}
-
 	.box-info {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		grid-area: info;
-	}
-
-	.header, .info, .button-back {
-		margin: 18px 0px;
-	}
-
-	.button-back {
-		margin: 25px 0px;
 	}
 }
