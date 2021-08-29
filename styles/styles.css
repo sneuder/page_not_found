@@ -1,0 +1,39 @@
+:root {
+	--color-header: #333333;
+	--color-info: #4F4F4F;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Space Mono", sans-serif;
+}
+
+body {
+	min-width: 100vw;
+}
+
+.box-text {
+	font-family: "Inconsolata", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.header {
+	font-weight: 700;
+	color: var(--color-header);
+}
+
+.info {
+	font-weight: 400;
+	color: var(--color-info);
+}
+
+.button-back {
+	width: 200px;
+	height: 68px;
+	background-color: var(--color-header);
+	border: hidden;
+	text-transform: uppercase;
+	color: #ffffff;
+}
